@@ -1,7 +1,10 @@
-package main
+/*
+ * @lc app=leetcode.cn id=1 lang=golang
+ *
+ * [1] 两数之和
+ */
 
-import "fmt"
-
+// @lc code=start
 func twoSum(nums []int, target int) []int {
 	hashTable := map[int]int{}
 	for i, x := range nums {
@@ -13,6 +16,5 @@ func twoSum(nums []int, target int) []int {
 	return nil
 }
 
-func main() {
-	fmt.Println(twoSum([]int{1, 2, 3, 4}, 6))
-}
+// @lc code=end
+

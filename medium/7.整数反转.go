@@ -1,10 +1,10 @@
-package main
+/*
+ * @lc app=leetcode.cn id=7 lang=golang
+ *
+ * [7] 整数反转
+ */
 
-import (
-	"fmt"
-	"math"
-)
-
+// @lc code=start
 func reverse(x int) int {
 	n := 0
 	for x != 0 {
@@ -17,6 +17,5 @@ func reverse(x int) int {
 	return n
 }
 
-func main() {
-	fmt.Println(reverse(123))
-}
+// @lc code=end
+
